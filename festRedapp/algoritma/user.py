@@ -39,7 +39,7 @@ class website_fun:
     def add_atom_link(self,url,atom_link):
         db_config.websites.update_one({"url":url},{'$push':{"other": {"atom":atom_link}}})
 
-    
+
 
 website_fun().add_website("listelist","listelist.com")
 website_fun().add_rss_link("listelist.com","feed")
