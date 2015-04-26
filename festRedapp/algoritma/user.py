@@ -1,6 +1,8 @@
 __author__ = 'ugur'
 import datetime
 import db_config
+import team
+
 class user_fun:
 
     def add_user(self,username,password,email):
@@ -13,10 +15,8 @@ class user_fun:
 
 
 
-
-
-
-
+site_bilgi = team("onedio.com")
+site_bilgi.name
 
 
 
