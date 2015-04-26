@@ -15,8 +15,6 @@ class user_fun:
 
 
 
-site_bilgi = team("onedio.com")
-site_bilgi.name
 
 
 
